@@ -1,0 +1,11 @@
+YAML is a light-Weight, human-readable data-serialization language.It is primarily designed to make the format easy to read while including advanced features.
+
+YAML stands for "YAML Ain't Markup Language
+
+It is similar to XML and JSON files but uses a more minimalist syntax even while maintaining similar capabilities.
+
+YAML files are created with extensions ".yamal" or".yml". you can use any IDE or text editor to open/create YAML files.
+
+YAML is similar inline style to JSON(is a superset of JSON).
+
+It is very easy and simple for represent complex mapping.Due to which it is heavily used in configuration settings.
