@@ -1,0 +1,5 @@
+Implicit and explicit typing in YAML
+=========================================================================================
+1) YAML offers versatility in typing by auto-detecting data type while also supporting    explicit typing options.
+
+2) To tag data as a certain type, simply include !![typeName] before the value
