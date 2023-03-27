@@ -1,0 +1,17 @@
+Strings in YAML
+==========================================================================================
+1) Strings in YAML doesn't need explicit double or single quotes.
+
+2) Use single or double quotes in YAML if your value includes special characters. For example, these special characters may require quotes: {, },[,], ,, &,:,*,#,?,|.-,<.>,=,!,%,@,\.
+
+3) "Yes" and"No" should be enclosed in quotes(single or double)or else they will be interpreted as True and False boolean values.
+
+4) we can use > (Folded style) to removes new lines within the string
+
+5) we can use | (literal style) to turn every new line within the string into a literal newline.
+
+6) you can contrl the handling of the final new line in the string, and any trailing blank lines (\n\n) by adding a block chomping indicator character:
+   
+    (i) >, |:"clip": keep the line feed, remove the trailing blank lines.
+	(ii) >-,|-:"strip": remove the line feed, remove the trailing blank lines.
+	(iii) >+,|+:"keep": keep the line feed, keep trailing blank lines.
