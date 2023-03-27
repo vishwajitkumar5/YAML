@@ -1,0 +1,15 @@
+Scalars in YAML
+
+Key-Value Pairs
+=================================================================================
+Most things in a YAML file are a form of key-value pair.Key-Value pair are the basis for allother YAML constructions.
+======================================================================================
+
+SCALARS
+========================================================================================
+Scalars represent a single stored value. Scalars are assigned to key name as values. You define a key with a name, Colon, and space, then a value for it to hold.
+
+<key>: <value>
+---> space is mandatory between a key and value after colon. without space it will be treated as a String value.
+
+example-->name: vishwajit
