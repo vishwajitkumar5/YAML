@@ -1,0 +1,13 @@
+comments support in YAML
+======================================================================================================
+Adding comments iside YAML files
+1) YAML allows you to add comments to files using the hash symbol (#) similar to python comments 
+2) YAML supports only single line comments.Its structure is explained below with the help of example:
+
+     #this is the example of comments.
+	 
+3) YAML does not support multi line comments.we can write as
+     #this
+     #is the 
+     #example of comments.	 
+	 
